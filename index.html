@@ -31,8 +31,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage"><b>Home</b></a></li>
-        <li><a href="#colleges"><b>Colleges</b></a></li>
         <li><a href="#engi"><b>Engi-talk</b></a></li>
+        <li><a href="#colleges"><b>Colleges</b></a></li>
         <li><a href="#tutorials"><b>Tutorials</b></a></li>
         <li><a href="#contact"><b>Contact</b></a></li>
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
@@ -47,6 +47,7 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -79,37 +80,37 @@
     </a>
 </div>
 
-<!-- Container (The Band Section) -->
-<div id="band" class="container text-center">
-  <h3>About us</h3>
+
+<div id="engi" class="container text-center">
+  <h3><b style="color:black"><span class="glyphicon glyphicon-user"></span> About us</b></h3>
   <p>“Engilife.com” aims to connect the engineers to solve their daily life problems during their engineering life span. We provide study material which they want for their studies. The material we provide is interacting and centralized which makes study more interesting and fluent. Basically we are providing the crucial and important questions and answers in a concise and point wise manner that is very effective in overnight exams preparations. We are here to make the life of college students very easy so they can perform well in their academics and projects. We guide students for their career options and about the opportunities and scopes in their respective fields. This reduces noise in their career planning. “Engilife.com” gives a platform where you can connect and collaborate with the students of other colleges for your projects or any query related to academics. We care about your privacy, your identity will not be reviled unless or until you share your information to others.</p></div>
 
-<!-- Container (TOUR Section) -->
+
 <div id="colleges" class="bg-1">
   <div class="container">
     <br />
-    <h1 class="text-center"><b id="head">COLLEGES</b></h1>
+    <h1 class="text-center"><b id="head"> <span class="glyphicon glyphicon-education"></span> COLLEGES</b></h1>
     <br />
     <div class="row text-center">
       <div class="col-md-4">
         <div class="thumbnail">
-          <img src="assets/images/a.jpg" alt="Paris" width="400" height="300" id="img">
+          <img src="assets/images/a.jpg" alt="coll" width="400" height="300" id="img">
           <p><strong>Institute of Engineering & Technology Sitapur Road,Lucknow.</strong></p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+          <button class="btn"type="submit">Visit</button>
         </div>
       </div>
       <div class="col-md-4">
         <div class="thumbnail">
-          <img src="assets/images/b.jpg" alt="New York" width="400" height="300" id="img">
+          <img src="assets/images/b.jpg" alt="coll" width="400" height="300" id="img">
           <p><strong>Bansal Institute of Engineering & Technology NH-24, Sitapur Road, Lucknow</strong></p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+          <button class="btn" type="submit">Visit</button>
         </div>
       </div>
       <div class="col-md-4">
         <div class="thumbnail">
-          <img src="assets/images/c.jpg" alt="San Francisco" width="400" height="300" id="img">
+          <img src="assets/images/c.jpg" alt="coll" width="400" height="300" id="img">
           <p><strong>Babu Banarasi Das University 111, Faizabad Rd, Atif Vihar, Lucknow</strong></p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+          <button class="btn" type="submit">Visit</button>
         </div>
       </div>
     </div>
@@ -117,58 +118,23 @@
     <div class="row text-center">
       <div class="col-md-4">
         <div class="thumbnail">
-          <img src="assets/images/d.jpg" alt="Paris" width="400" height="300" id="img">
+          <img src="assets/images/d.jpg" alt="coll" width="400" height="300" id="img">
           <p><strong>BN College of Engineering and Technology Bakshi Ka Talab, Sitapur Road, Lucknow</strong></p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+          <button class="btn" type="submit">Visit</button>
         </div>
       </div>
       <div class="col-md-4">
         <div class="thumbnail">
-          <img src="assets/images/e.jpg" alt="New York" width="400" height="300" id="img">
+          <img src="assets/images/e.jpg" alt="Ncoll" width="400" height="300" id="img">
           <p><strong>Shri Ram Murti Smarak College Lucknow Kanpur Highway, Unnao</strong></p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+          <button class="btn" type="submit">Visit</button>
         </div>
       </div>
       <div class="col-md-4">
         <div class="thumbnail">
-          <img src="assets/images/g.jpg" alt="San Francisco" width="400" height="300" id="img">
+          <img src="assets/images/g.jpg" alt="coll" width="400" height="300" id="img">
           <p><strong>Amity University  Malhaur Near Railway Station, Gomti Nagar Extension, Lucknow </strong></p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
-        </div>
-        <div class="modal-body">
-          <form role="form">
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
-              <input type="number" class="form-control" id="psw" placeholder="How many?">
-            </div>
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-            </div>
-              <button type="submit" class="btn btn-block">Pay
-                <span class="glyphicon glyphicon-ok"></span>
-              </button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
-          <p>Need <a href="#">help?</a></p>
+          <button class="btn" type="submit">Visit</button>
         </div>
       </div>
     </div>
@@ -177,8 +143,8 @@
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container">
-  <h1 class="text-center"><b id="head" style="color:black">Contact</b></h1>
-
+  <h1 class="text-center"><b id="head" style="color:black"> <span class="glyphicon glyphicon-earphone"></span>  Contact</b></h1>
+<br />
   <div class="row">
     <div class="col-md-4">
       <p><span class="glyphicon glyphicon-map-marker"></span> Sector F, Jankipuram, Lucknow, Uttar Pradesh 226021</p>
@@ -187,10 +153,10 @@
     </div>
     <div class="col-md-8">
       <div class="row">
-        <div class="col-sm-6 form-group">
+        <div class="col-md-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
         </div>
-        <div class="col-sm-6 form-group">
+        <div class="col-md-6 form-group">
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
