@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SAMPLE | EngiLife</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" href="assets/images/logo.png" type="image/gif" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage"><img src="assets/images/logo.png" alt="logo" id="logo"></a><span><b style="color:white;font-size:30px;">EngiLife</b></span>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage"><b>Home</b></a></li>
+        <li><a href="#colleges"><b>Colleges</b></a></li>
+        <li><a href="#engi"><b>Engi-talk</b></a></li>
+        <li><a href="#tutorials"><b>Tutorials</b></a></li>
+        <li><a href="#contact"><b>Contact</b></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="assets/images/7.jpg" alt="sample" width="1200" height="100"  id="cour">
+      </div>
+
+      <div class="item">
+        <img src="assets/images/5.jpg" alt="sample" width="1200" height="100"  id="cour" >
+      </div>
+
+      <div class="item">
+        <img src="assets/images/6.jpg" alt="sample" width="1200" height="100"  id="cour">
+      </div>
+
+      <div class="item">
+        <img src="assets/images/4.jpg" alt="sample" width="1200" height="100"  id="cour">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center">
+  <h3>About us</h3>
+  <p>“Engilife.com” aims to connect the engineers to solve their daily life problems during their engineering life span. We provide study material which they want for their studies. The material we provide is interacting and centralized which makes study more interesting and fluent. Basically we are providing the crucial and important questions and answers in a concise and point wise manner that is very effective in overnight exams preparations. We are here to make the life of college students very easy so they can perform well in their academics and projects. We guide students for their career options and about the opportunities and scopes in their respective fields. This reduces noise in their career planning. “Engilife.com” gives a platform where you can connect and collaborate with the students of other colleges for your projects or any query related to academics. We care about your privacy, your identity will not be reviled unless or until you share your information to others.</p></div>
+
+<!-- Container (TOUR Section) -->
+<div id="colleges" class="bg-1">
+  <div class="container">
+    <br />
+    <h1 class="text-center"><b id="head">COLLEGES</b></h1>
+    <br />
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="assets/images/a.jpg" alt="Paris" width="400" height="300" id="img">
+          <p><strong>Institute of Engineering & Technology Sitapur Road,Lucknow.</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="assets/images/b.jpg" alt="New York" width="400" height="300" id="img">
+          <p><strong>Bansal Institute of Engineering & Technology NH-24, Sitapur Road, Lucknow</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="assets/images/c.jpg" alt="San Francisco" width="400" height="300" id="img">
+          <p><strong>Babu Banarasi Das University 111, Faizabad Rd, Atif Vihar, Lucknow</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="assets/images/d.jpg" alt="Paris" width="400" height="300" id="img">
+          <p><strong>BN College of Engineering and Technology Bakshi Ka Talab, Sitapur Road, Lucknow</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="assets/images/e.jpg" alt="New York" width="400" height="300" id="img">
+          <p><strong>Shri Ram Murti Smarak College Lucknow Kanpur Highway, Unnao</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="assets/images/g.jpg" alt="San Francisco" width="400" height="300" id="img">
+          <p><strong>Amity University  Malhaur Near Railway Station, Gomti Nagar Extension, Lucknow </strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Visit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+              <input type="number" class="form-control" id="psw" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Pay
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h1 class="text-center"><b id="head" style="color:black">Contact</b></h1>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p><span class="glyphicon glyphicon-map-marker"></span> Sector F, Jankipuram, Lucknow, Uttar Pradesh 226021</p>
+      <p><span class="glyphicon glyphicon-phone"></span> Phone: +9194550 12989</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> Email: mail@mail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>
