@@ -12,7 +12,7 @@ h3, h4 {
     padding: 80px 80px;
 }
 #contact {
-    padding: 80px 60px;
+    padding: 80px 5px;
 }
 #colleges,#tutorials{
     padding: 80px 40px;
@@ -91,8 +91,9 @@ h3, h4 {
 
 
 .bg-1 {
-    background: #2d2d30;
+
     color: #bdbdbd;
+     background-image: linear-gradient(to right, #3A1C71, #D76D77,#FFAF7B);
 }
 .bg-1 h3 {color: #fff;}
 .bg-1 p {font-style: italic;}
@@ -107,7 +108,7 @@ h3, h4 {
 .thumbnail {
     padding: 0 0 15px 0;
     border: none;
-    border-radius: 0;
+    border-radius: 20px;
 
 }
 .thumbnail p {
@@ -157,11 +158,12 @@ textarea {
 
 #cnt{
   border: 2px solid #ccc;
-  background-color:  #eee;
+  background-color:  #f8f9fa;
   border-radius: 5px;
   padding: 16px;
   margin: 16px 0;
   height:150px;
+  color:black;
 
 }
 
