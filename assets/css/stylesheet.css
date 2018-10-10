@@ -9,7 +9,10 @@ h3, h4 {
     color: white
 }
 .container {
-    padding: 80px 120px;
+    padding: 80px 80px;
+}
+#contact {
+    padding: 80px 60px;
 }
 .person {
     border: 10px solid transparent;
@@ -65,7 +68,7 @@ h3, h4 {
           .navbar {
               font-family: Montserrat, sans-serif;
               margin-bottom: 0;
-              background-color: black;
+              background-color:  #2d2d30;
               border: 0;
               font-size: 18px !important;
               letter-spacing: 2px;
