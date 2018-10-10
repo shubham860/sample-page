@@ -14,6 +14,9 @@ h3, h4 {
 #contact {
     padding: 80px 60px;
 }
+#colleges,#tutorials{
+    padding: 80px 40px;
+}
 .person {
     border: 10px solid transparent;
     margin-bottom: 25px;
@@ -53,6 +56,10 @@ h3, h4 {
              letter-spacing: 2px;
              margin-top: 20px;
          }
+         #manag{
+           margin-top: 0px;
+         }
+
         }
 
 
@@ -73,6 +80,11 @@ h3, h4 {
               font-size: 18px !important;
               letter-spacing: 2px;
               margin-top: 0px;
+          }
+
+          #manag{
+            font-size:20px;
+            margin-top: -20px;
           }
 
        }
@@ -139,4 +151,45 @@ h3, h4 {
 }
 textarea {
     resize: none;
+}
+
+
+
+#cnt{
+  border: 2px solid #ccc;
+  background-color:  #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+  height:150px;
+
+}
+
+#cnt::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#cnt img {
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+  margin-top:15px;
+}
+
+#cnt span {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  #cnt {
+      text-align: center;
+  }
+  #cnt img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
 }
